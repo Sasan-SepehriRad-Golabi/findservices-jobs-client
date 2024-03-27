@@ -1,13 +1,13 @@
 const axios = require("axios");
 const instance_normal = axios.create({
-    baseURL: 'https://rameshkar.ir/',
+    baseURL: 'http://127.0.0.1:3000/',
     withCredentials: true,
     headers: {
         'Content-Type': 'application/json',
     }
 });
 const instance_formData = axios.create({
-    baseURL: 'https://rameshkar.ir/',
+    baseURL: 'http://127.0.0.1:3000/',
     withCredentials: true,
     headers: {
         'Content-Type': 'multipart/form-data',
